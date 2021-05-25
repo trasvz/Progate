@@ -1,0 +1,19 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .menu{
+    display:none;
+  }
+  .header-right{
+    display:block;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .menu{
+    display:block;
+  }
+  .header-right{
+    display:none;
+  }
+}
