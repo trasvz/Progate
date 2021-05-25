@@ -1,0 +1,38 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Write your code below */
+.taskbar{
+  width:100%;
+  height:90px;
+  background-color:#26d0c9;
+}
+
+.taskbar h1, p{
+  float:left;
+  color:#fff;
+}
+
+.taskbar h1{
+  padding: 20px 40px;
+  font-weight: normal;
+  font-size:36px;
+}
+
+.taskbar p{
+  padding: 33px 20px;
+}

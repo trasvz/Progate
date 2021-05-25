@@ -1,0 +1,82 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Write your code below */
+.taskbar{
+  width:100%;
+  height:90px;
+  background-color:#26d0c9;
+}
+
+.taskbar h1, p{
+  float:left;
+  color:#fff;
+}
+
+.taskbar h1{
+  padding: 20px 40px;
+  font-weight: normal;
+  font-size:36px;
+}
+
+.taskbar p{
+  padding: 33px 20px;
+}
+
+.judul{
+  padding: 100px 80px;
+}
+
+.judul h1{
+  font-size:140px;
+}
+
+.judul h2{
+  font-size:60px;
+}
+
+.judul span{
+  color:#ff4a4a;
+}
+
+.isi{
+  padding:0px 80px 100px 80px;
+  height:500px;
+}
+
+.isi-dalem{
+  
+}
+
+.isi-dalem h3{
+  font-size:28px;
+  border-bottom:2px solid #dee7ec;
+  padding-bottom:15px;
+}
+
+.course{
+  float:left;
+}
+
+.isi-dalem p{
+  font-size:24px;
+  color:black;
+}
+
+.img{
+  padding:50px 40px 30px 0px;
+}
